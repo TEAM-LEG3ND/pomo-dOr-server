@@ -8,6 +8,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/_build" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/castore" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/cowboy" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/cowboy_telemetry" />
@@ -45,6 +46,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/telemetry_poller" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/websock" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/websock_adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/deps" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="phoenix" level="project" />
