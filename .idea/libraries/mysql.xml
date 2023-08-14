@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mysql" type="mix">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/mysql/src" />
+      <root url="file://$PROJECT_DIR$/deps/mysql/priv" />
+    </SOURCES>
+  </library>
+</component>

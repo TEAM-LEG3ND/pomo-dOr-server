@@ -119,5 +119,6 @@
     <orderEntry type="library" name="html_entities" level="project" />
     <orderEntry type="library" name="ssl_verify_fun" level="project" />
     <orderEntry type="library" name="hpack" level="project" />
+    <orderEntry type="library" name="mysql" level="project" />
   </component>
 </module>
