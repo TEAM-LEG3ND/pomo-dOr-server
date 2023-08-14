@@ -7,6 +7,11 @@ defmodule PomodorWeb.Router do
 
   scope "/api", PomodorWeb do
     pipe_through :api
+    get "/users", UserController, :index
+    get "/users/:id", UserController, :show
+    post "/users", UserController, :create
+    put "/users", UserController, :edit
+    delete "/users", UserController, :delete
   end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development
