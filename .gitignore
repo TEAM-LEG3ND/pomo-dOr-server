@@ -35,3 +35,7 @@ pomodor-*.tar
 npm-debug.log
 /assets/node_modules/
 
+
+# Ignore config
+/config/dev.exs
+/config/prod.exs
