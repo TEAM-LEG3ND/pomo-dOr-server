@@ -13,4 +13,11 @@ defmodule PomodorWeb.FallbackController do
     |> put_view(html: PomodorWeb.ErrorHTML, json: PomodorWeb.ErrorJSON)
     |> render(:"404")
   end
+
+  def call(conn, {:error, :unauthorized}) do
+    conn
+    |> put_status(401)
+    |> put_view(html: PomodorWeb.ErrorHTML, json: PomodorWeb.ErrorJSON)
+    |> render(:"401")
+  end
 end
